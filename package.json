@@ -1,18 +1,13 @@
 {
-  "name": "localtunnel",
+  "name": "localtunnel-socks-client",
   "description": "Expose localhost to the world",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/localtunnel/localtunnel.git"
+    "url": "git@code.samourai.io:dojo/localtunnel-socks-client.git"
   },
-  "author": "Roman Shtylman <shtylman@gmail.com>",
-  "contributors": [
-    "Roman Shtylman <shtylman@gmail.com>",
-    "Gert Hengeveld <gert@hichroma.com>",
-    "Tom Coleman <tom@hichroma.com>"
-  ],
+  "author": "Pavel Ševčík <pavel.sevcik@protonmail.com>",
   "main": "./localtunnel.js",
   "bin": {
     "lt": "bin/lt.js"

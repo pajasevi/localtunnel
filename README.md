@@ -1,4 +1,8 @@
-# localtunnel
+# localtunnel-socks-client
+
+This is a fork of [localtunnel](https://github.com/localtunnel/localtunnel) client library with added support for socks proxy
+
+---
 
 localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.
 
