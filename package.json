@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@code.samourai.io:dojo/localtunnel-socks-client.git"
+    "url": "https://code.samourai.io/dojo/localtunnel-socks-client.git"
   },
   "author": "Pavel Ševčík <pavel.sevcik@protonmail.com>",
   "main": "./localtunnel.js",
