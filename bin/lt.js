@@ -44,11 +44,9 @@ const { argv } = yargs
   })
   .option('socks-host', {
     describe: 'Socks proxy hostname',
-    implies: 'socks-port'
   })
   .option('socks-port', {
     describe: 'Socks proxy port',
-    implies: 'socks-host'
   })
   .options('o', {
     alias: 'open',
@@ -58,6 +56,8 @@ const { argv } = yargs
     describe: 'Print basic request info',
   })
   .require('port')
+  .require('socks-host')
+  .require('socks-port')
   .boolean('local-https')
   .boolean('allow-invalid-cert')
   .boolean('print-requests')
