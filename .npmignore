@@ -1,0 +1,4 @@
+.idea
+.travis.yml
+.eslintrc.js
+*.spec.js
