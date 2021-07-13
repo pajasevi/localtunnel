@@ -1,3 +1,7 @@
+# 3.0.1 (2021-07-14)
+
+- Ignore specific files for NPM
+
 # 3.0.0 (2021-07-14)
 
 - Make SOCKS proxy required
